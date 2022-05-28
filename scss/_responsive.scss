@@ -1,0 +1,25 @@
+// Responsive Design
+@media (max-width: 992px) {
+    .main {
+        @include flexbox(column, center, center);
+
+        .avatar-wrapper {
+            margin-right: 0;
+        }
+
+        .details-wrapper {
+            @include flexbox(column, center, center);
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        .details-wrapper {
+            .typed-wrapper {
+                min-height: 46px;
+            }
+        }
+    }
+}
