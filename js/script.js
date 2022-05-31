@@ -130,11 +130,12 @@ let typed = new Typed('#typed', {
         "Software Engineering Undergraduate",
         "Tech Enthusiast | Optimist | Passionate Learner"
     ],
-    typeSpeed: 70,
-    backSpeed: 35,
-    backDelay: 500,
+    typeSpeed: 80,
+    backSpeed: 80,
     startDelay: 1200,
-    loop: true,
+    backDelay: 1200,
+    cursorChar: '_',
     showCursor: true,
-    cursorChar: '_'
+    fadeOut: true,
+    loop: true
 });
