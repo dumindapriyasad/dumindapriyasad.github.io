@@ -1,0 +1,22 @@
+// Mixins
+@mixin canvas-height {
+    height: 100%;
+    min-height: 600px;
+}
+
+@mixin flexbox($fd, $jc, $ai) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin box-shadow($horizontal, $vertical, $blur, $spread, $color) {
+    -webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+    -moz-box-shadow: $horizontal $vertical $blur $spread $color;
+    box-shadow: $horizontal $vertical $blur $spread $color;
+}
+
+@mixin text-shadow {
+    text-shadow: 1px 1px 3px $color-text-shadow;
+}
