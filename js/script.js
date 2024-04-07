@@ -126,8 +126,7 @@ anime({
 let typed = new Typed('#typed', {
     strings: [
         "I'm a ❝Developer❞",
-        "I like making fun, interactive things with <code>❝code❞</code>",
-        "Software Engineering Undergraduate",
+        "I enjoy creating fun, interactive things with <code>❝code❞</code>",
         "Tech Enthusiast | Optimist | Passionate Learner"
     ],
     typeSpeed: 80,
